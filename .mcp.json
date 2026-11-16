@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "duly": {
+      "command": "/Applications/Duly.app/Contents/MacOS/duly-mcp",
+      "args": []
+    }
+  }
+}

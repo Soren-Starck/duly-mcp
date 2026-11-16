@@ -1,0 +1,6 @@
+{
+  "name": "duly-mcp",
+  "owner": { "name": "Soren Starck" },
+  "description": "The Duly plugin: Apple Calendar and Reminders for Claude on Mac.",
+  "plugins": [ { "name": "duly", "source": "." } ]
+}

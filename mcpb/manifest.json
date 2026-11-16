@@ -1,0 +1,18 @@
+{
+  "manifest_version": "0.3",
+  "name": "duly",
+  "display_name": "Duly",
+  "version": "1.0.1",
+  "description": "Apple Calendar and Reminders for AI assistants on Mac, through the Duly app (required).",
+  "long_description": "Starts the MCP connector inside the Duly app (/Applications/Duly.app), which holds the Calendar and Reminders permission. Without the app installed it explains where to get it and exits. Duly is sold at https://starck.studio/apps/duly.",
+  "author": { "name": "Soren Starck", "email": "apps@soren-starck.com", "url": "https://starck.studio" },
+  "homepage": "https://starck.studio/apps/duly",
+  "support": "https://starck.studio/apps/duly",
+  "license": "MIT",
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.js",
+    "mcp_config": { "command": "node", "args": ["${__dirname}/server/index.js"] }
+  },
+  "compatibility": { "platforms": ["darwin"] }
+}

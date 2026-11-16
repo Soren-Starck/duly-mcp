@@ -1,0 +1,12 @@
+{
+  "name": "duly",
+  "version": "1.0.1",
+  "description": "Apple Calendar and Reminders for Claude on Mac, through the Duly app (required, sold separately at starck.studio/apps/duly).",
+  "author": { "name": "Soren Starck", "email": "apps@soren-starck.com", "url": "https://starck.studio" },
+  "homepage": "https://starck.studio/apps/duly",
+  "repository": "https://github.com/Soren-Starck/duly-mcp",
+  "license": "MIT",
+  "keywords": ["apple-calendar", "reminders", "macos", "calendar", "eventkit"],
+  "supportUrl": "https://starck.studio/apps/duly",
+  "documentationUrl": "https://starck.studio/apps/guides/connect-claude-to-apple-calendar"
+}
